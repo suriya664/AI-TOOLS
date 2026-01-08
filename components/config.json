@@ -1,0 +1,87 @@
+{
+  "components": {
+    "header": {
+      "path": "components/header.html",
+      "target": "#header-container",
+      "required": true
+    },
+    "footer": {
+      "path": "components/footer.html",
+      "target": "#footer-container",
+      "required": true
+    },
+    "sections": {
+      "hero": {
+        "path": "components/sections/hero.html",
+        "target": "#hero-section",
+        "required": true
+      },
+      "features": {
+        "path": "components/sections/features.html",
+        "target": "#features-section",
+        "required": true
+      },
+      "how-it-works": {
+        "path": "components/sections/how-it-works.html",
+        "target": "#how-it-works-section",
+        "required": false
+      },
+      "use-cases": {
+        "path": "components/sections/use-cases.html",
+        "target": "#use-cases-section",
+        "required": false
+      },
+      "demo": {
+        "path": "components/sections/demo.html",
+        "target": "#demo-section",
+        "required": false
+      },
+      "tools": {
+        "path": "components/sections/tools.html",
+        "target": "#tools-section",
+        "required": true
+      },
+      "pricing": {
+        "path": "components/sections/pricing.html",
+        "target": "#pricing-section",
+        "required": true
+      },
+      "testimonials": {
+        "path": "components/sections/testimonials.html",
+        "target": "#testimonials-section",
+        "required": false
+      },
+      "integrations": {
+        "path": "components/sections/integrations.html",
+        "target": "#integrations-section",
+        "required": false
+      },
+      "cta": {
+        "path": "components/sections/cta.html",
+        "target": "#cta-section",
+        "required": false
+      },
+      "blog": {
+        "path": "components/sections/blog.html",
+        "target": "#blog-section",
+        "required": false
+      },
+      "faq": {
+        "path": "components/sections/faq.html",
+        "target": "#faq-section",
+        "required": false
+      },
+      "contact": {
+        "path": "components/sections/contact.html",
+        "target": "#contact-section",
+        "required": false
+      },
+      "newsletter": {
+        "path": "components/sections/newsletter.html",
+        "target": "#newsletter-section",
+        "required": false
+      }
+    }
+  }
+}
+

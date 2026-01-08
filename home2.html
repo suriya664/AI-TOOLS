@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
+    <title>Gama AI - Next Generation AI Platform</title>
+    <meta name="description" content="Transform your workflow with cutting-edge AI technology. Build smarter, faster, and more efficient solutions.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.svg">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#0A0A0A">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Navbar -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent py-2">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+          <i class="bi bi-cpu brand-icon"></i>
+          <span class="brand-name">Gama AI</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+          <button class="close-menu-btn d-lg-none" type="button" aria-label="Close menu">
+            <i class="bi bi-x-lg"></i>
+          </button>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home Page 2
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                <li><a class="dropdown-item" href="index.html#hero">Home Page 1</a></li>
+                <li><a class="dropdown-item active" href="home2.html">Home Page 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="index.html#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#tools">Tools</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#testimonials">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+            <!-- Mobile Menu Buttons - After Contact -->
+            <li class="nav-item d-lg-none mt-3">
+              <a href="dashboard.html" class="btn btn-nav-dashboard w-100">
+                <i class="bi bi-speedometer2"></i>Dashboard
+              </a>
+            </li>
+            <li class="nav-item d-lg-none">
+              <a href="login.html" class="btn btn-nav-login w-100">
+                <i class="bi bi-box-arrow-in-right"></i>Login
+              </a>
+            </li>
+            <li class="nav-item d-lg-none mb-2">
+              <a href="register.html" class="btn btn-nav-get-started w-100">
+                <i class="bi bi-rocket-takeoff"></i>Get Started
+              </a>
+            </li>
+          </ul>
+          <!-- Desktop Menu Buttons -->
+          <div class="d-none d-lg-flex navbar-buttons mt-3 mt-lg-0">
+            <a href="login.html" class="btn btn-nav-login">
+              <i class="bi bi-box-arrow-in-right"></i>Login
+            </a>
+            <a href="register.html" class="btn btn-nav-get-started">
+              <i class="bi bi-rocket-takeoff"></i>Get Started
+            </a>
+            <a href="dashboard.html" class="btn btn-nav-dashboard">
+              <i class="bi bi-speedometer2"></i>Dashboard
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section - Different Style -->
+    <section id="hero" class="hero-section position-relative overflow-hidden">
+      <div class="hero-bg-animated"></div>
+      <div class="hero-overlay"></div>
+      <div class="container position-relative hero-container" style="z-index: 2;">
+        <div class="row justify-content-center align-items-center py-5" style="min-height: 100vh;">
+          <div class="col-12 col-lg-8 hero-content text-center" data-aos="fade-up">
+            <div class="hero-badge mb-4">
+              <span class="badge-text">🚀 Next Generation AI</span>
+            </div>
+            <h1 class="hero-title mb-4">
+              <span class="brand-title">Transform Your Workflow</span>
+            </h1>
+            <p class="hero-subtitle mb-5">Build Smarter Solutions with AI</p>
+            <p class="hero-description mb-5 mx-auto">Harness the power of artificial intelligence to automate complex tasks, generate insights, and accelerate innovation. Join thousands of teams revolutionizing their productivity.</p>
+            <div class="d-flex flex-wrap gap-3 mb-4 hero-cta justify-content-center">
+              <a href="register.html" class="btn btn-premium btn-lg px-5">
+                <span class="btn-text">Start Free Trial</span>
+                <span class="btn-glow"></span>
+              </a>
+              <a href="index.html#tools" class="btn btn-premium-outline btn-lg px-5">
+                <span class="btn-text">View Products</span>
+                <span class="btn-glow"></span>
+              </a>
+            </div>
+            <div class="d-flex flex-wrap gap-4 hero-features justify-content-center">
+              <div class="feature-item"><i class="bi bi-cloud-check me-2"></i>Cloud Powered</div>
+              <div class="feature-item"><i class="bi bi-robot me-2"></i>AI Driven</div>
+              <div class="feature-item"><i class="bi bi-globe me-2"></i>Global Scale</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Benefits Section -->
+    <section class="py-6">
+      <div class="container">
+        <div class="text-center mb-5 section-header" data-aos="fade-up">
+          <span class="section-badge">Why Choose Us</span>
+          <h2 class="section-title mb-3">Unleash Your Potential</h2>
+          <p class="section-subtitle">Discover what makes Gama AI different</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="glass-card feature-card h-100 text-center p-4">
+              <div class="card-border"></div>
+              <div class="feature-icon mb-4">
+                <i class="bi bi-brain"></i>
+              </div>
+              <h4 class="feature-title mb-3">Advanced AI Models</h4>
+              <p class="feature-description">Powered by state-of-the-art machine learning algorithms trained on billions of data points for superior accuracy.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+            <div class="glass-card feature-card h-100 text-center p-4">
+              <div class="card-border"></div>
+              <div class="feature-icon mb-4">
+                <i class="bi bi-speedometer"></i>
+              </div>
+              <h4 class="feature-title mb-3">Lightning Performance</h4>
+              <p class="feature-description">Process requests in milliseconds with our optimized infrastructure and global CDN network.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card feature-card h-100 text-center p-4">
+              <div class="card-border"></div>
+              <div class="feature-icon mb-4">
+                <i class="bi bi-lock"></i>
+              </div>
+              <h4 class="feature-title mb-3">Privacy First</h4>
+              <p class="feature-description">Your data is encrypted end-to-end. We never store or share your information with third parties.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-6 bg-light">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-md-3 col-6" data-aos="zoom-in">
+            <div class="glass-card p-4">
+              <div class="display-4 fw-bold mb-2" style="background: linear-gradient(135deg, var(--liquid-gold), var(--champagne-start)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">10M+</div>
+              <div class="stat-label">API Calls</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="50">
+            <div class="glass-card p-4">
+              <div class="display-4 fw-bold mb-2" style="background: linear-gradient(135deg, var(--liquid-gold), var(--champagne-start)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">50K+</div>
+              <div class="stat-label">Active Users</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="glass-card p-4">
+              <div class="display-4 fw-bold mb-2" style="background: linear-gradient(135deg, var(--liquid-gold), var(--champagne-start)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">99.9%</div>
+              <div class="stat-label">Uptime</div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6" data-aos="zoom-in" data-aos-delay="150">
+            <div class="glass-card p-4">
+              <div class="display-4 fw-bold mb-2" style="background: linear-gradient(135deg, var(--liquid-gold), var(--champagne-start)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">150+</div>
+              <div class="stat-label">Countries</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Innovation Section -->
+    <section class="py-6">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="section-badge">Innovation</span>
+            <h2 class="section-title mb-4">Built for the Future</h2>
+            <p class="hero-description mb-4">Gama AI represents the next evolution in artificial intelligence platforms. We combine cutting-edge research with practical applications to deliver tools that transform how you work.</p>
+            <ul class="list-unstyled">
+              <li class="mb-3 d-flex align-items-start">
+                <i class="bi bi-check-circle-fill text-success me-3 fs-5"></i>
+                <div>
+                  <strong class="text-white">Continuous Learning</strong>
+                  <p class="text-muted mb-0">Our AI models improve with every interaction, getting smarter over time.</p>
+                </div>
+              </li>
+              <li class="mb-3 d-flex align-items-start">
+                <i class="bi bi-check-circle-fill text-success me-3 fs-5"></i>
+                <div>
+                  <strong class="text-white">Customizable Solutions</strong>
+                  <p class="text-muted mb-0">Tailor AI capabilities to match your specific business needs and workflows.</p>
+                </div>
+              </li>
+              <li class="mb-3 d-flex align-items-start">
+                <i class="bi bi-check-circle-fill text-success me-3 fs-5"></i>
+                <div>
+                  <strong class="text-white">Developer Friendly</strong>
+                  <p class="text-muted mb-0">Comprehensive APIs and SDKs for seamless integration into your stack.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="glass-card p-5 text-center">
+              <div class="feature-icon mx-auto mb-4" style="width: 100px; height: 100px; font-size: 4rem;">
+                <i class="bi bi-stars"></i>
+              </div>
+              <h3 class="feature-title mb-3">Experience the Difference</h3>
+              <p class="feature-description">Join the AI revolution and see why industry leaders trust Gama AI for their most critical operations.</p>
+              <a href="register.html" class="btn btn-premium mt-4">Get Started Today</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-6 bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8" data-aos="fade-right">
+            <h2 class="display-5 fw-bold mb-3">Ready to Transform Your Workflow?</h2>
+            <p class="lead mb-0">Start your free trial today and experience the power of next-generation AI.</p>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end mt-4 mt-lg-0" data-aos="fade-left">
+            <a href="register.html" class="btn btn-light btn-lg px-5">Start Free Trial</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-premium py-5">
+      <div class="container">
+        <div class="row g-4 mb-4">
+          <div class="col-12 col-lg-3">
+            <h5 class="fw-bold mb-3 brand-footer"><i class="bi bi-cpu me-2 brand-icon"></i>Gama AI</h5>
+            <p class="footer-description mb-4">Next generation AI platform for modern businesses.</p>
+            <div class="social-links">
+              <a href="#" class="social-link" title="Facebook" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="social-link" title="Twitter/X" aria-label="Twitter/X">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+              <a href="#" class="social-link" title="LinkedIn" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#" class="social-link" title="Instagram" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="social-link" title="YouTube" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="#" class="social-link" title="GitHub" aria-label="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h6 class="footer-heading mb-3">Product</h6>
+            <ul class="list-unstyled footer-links">
+              <li class="mb-2"><a href="index.html#features" class="footer-link">Features</a></li>
+              <li class="mb-2"><a href="index.html#pricing" class="footer-link">Pricing</a></li>
+              <li class="mb-2"><a href="index.html#tools" class="footer-link">Tools</a></li>
+              <li><a href="blog.html" class="footer-link">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h6 class="footer-heading mb-3">Company</h6>
+            <ul class="list-unstyled footer-links">
+              <li class="mb-2"><a href="about.html" class="footer-link">About</a></li>
+              <li class="mb-2"><a href="index.html#contact" class="footer-link">Contact</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Careers</a></li>
+              <li><a href="#" class="footer-link">Partners</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h6 class="footer-heading mb-3">Legal</h6>
+            <ul class="list-unstyled footer-links">
+              <li class="mb-2"><a href="#" class="footer-link">Privacy</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Terms</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Security</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Compliance</a></li>
+            </ul>
+            <h6 class="footer-heading mb-3 mt-4">Support</h6>
+            <ul class="list-unstyled footer-links">
+              <li class="mb-2"><a href="#" class="footer-link">Help Center</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">Documentation</a></li>
+              <li class="mb-2"><a href="#" class="footer-link">API</a></li>
+              <li><a href="#" class="footer-link">Status</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center footer-bottom">
+          <p class="footer-copyright mb-0">© 2025 Gama AI. All rights reserved.</p>
+          <div class="mt-3 mt-md-0 footer-legal-links">
+            <a href="#" class="footer-link me-3">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
